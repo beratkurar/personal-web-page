@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Name - Personal Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+	<style>
+		body {
+		}
+	</style>
+	<link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+
+		html,
+		body {
+		height: 100%;
+		}
+
+		#wrap {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -30px;
+		}
+		#push,
+		#footer {
+		height: 30px;
+		}
+    </style>
+    
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./ico/favicon.ico">
+  </head>
+
+  <body>
+	<div id="wrap">
+		<div class="container">
+			<div class="span9 offset1">
+			
+				<div class="navbar" style="margin-top: 30px;">
+				  <div class="navbar-inner">
+					<a class="brand" href="./">Your Name</a>
+					<ul class="nav" id="myTab">
+					  <li class="active"><a href="#home">Home</a></li>
+					  <li><a href="#tab1">Teaching</a></li>
+					  <li><a href="#tab2">Projects</a></li>
+					  <li><a href="#tab3">Publications</a></li>
+					  <li><a href="#tab4">Honors</a></li>
+					  <li><a href="#tab5">Personal</a></li>
+					  <li><a href="#tab6">Tab 6</a></li>
+					  <li><a href="#tab7">Tab 7</a></li>
+					  <li><a href="#tab8">Tab 8</a></li>
+					  
+					</ul>
+				  </div>
+				</div>
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="home">
+						<div class="row">
+							<div class="span7">
+								<H2>Bootstrapped personal page</H2>
+								<p class="lead">
+									A <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">twitter Bootstrap</a> based personal page theme.
+								</p>
+								<p>
+									Geared toward graduate students and faculty of the Computer Science Department at Ben-Gurion University of the Negev, this no-fuss, single file theme should be easy to install and edit with only minimal knowledge of HTML.
+								</p>
+								<p>
+									To get started:
+									<ol>
+										<li>Download the theme from here: <a href="./boot.zip">boot.zip</a>.</li>
+										<li>Go to your Linux home directory (~username).</li>
+										<li>Create a folder names ".html" (<code>mkdir .html</code>).</li>
+										<li>Extract the contents of boot.zip to ~/.html/.</li>
+										<li>
+											Set permission for your home directory and .html directory:</br>
+											<code>chmod 711 ~username</code></br>
+											<code>chmod 711 ~/.html/</code></br>
+											<code>chmode -R 755 ~/.html/*</code></br>
+										</li>
+									</ol>
+									Be sure to replace "username" with your Linux user. Also - keep in mind that the contense of your .html directory is <span class="text-warning">publicly visible</span> so avoid storing anything embarrassing there...
+								</p>
+								<p>
+									If you are not a member of the BGU CS dept. you are still welcome to use this theme - extracting the contents of boot.zip to your site directory of any web-server should work just fine.
+								</p>
+								<p>
+									Once you have completed the above steps - edit <code>index.html</code> in your .html directory to customize your site. Don't forget to change "Your Name" to your actual name - both in the navigation menu and the page title!
+								</p>
+								<p>
+									Navigation tabs can be renamed/removed by editing the <code>#navbar</code> section of the file.
+								</p>
+								<p>
+									If you are completely unfamiliar with HTML, you might want to read a <a href="http://lifehacker.com/5790955/how-to-make-a-web-site-the-complete-guide" target="_blank">guide</a> first.
+								</p>
+							
+							</div>
+							<div class="span2" style="text-align: center;">
+								<img src="./profile.jpg" class="img-polaroid">
+								<p style="text-align: left;">
+									Profile picture - max width 160px.</br>
+									Substitute 'profile.jpg' for your own picture and replace/delete this text as you see fit.
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="tab-pane fade" id="tab1">
+						<H2>Teaching:</H2>
+						<P>
+							This would be a good place to list past and present courses you teach/taught as a professor/TA. If you do not teach, you can hide this tab by editing the <code>#navbar</code> section of the index.html. Below is a sample template for a course list:
+						</P>
+						<UL>
+							<li>Fall 2013:
+								<ul>
+									<li><a href="http://www.cs.bgu.ac.il/~course_website">Course name</a></br></li>
+									<li>
+										<a href="http://www.cs.bgu.ac.il/~course_website">Course name</a></br>
+										Some details about the course</br>
+										Even more details!</br>
+									</li>
+									<li><a href="http://www.cs.bgu.ac.il/~course_website">Course name</a></br></li>
+								</ul>
+							<li>Spring 2013:
+								<ul>
+									<li><a href="http://www.cs.bgu.ac.il/~course_website">Course name</a></br></li>
+								</ul>
+						</UL>
+						
+					</div>
+					
+					
+					<div class="tab-pane fade" id="tab2">
+						<H2>Projects</H2>
+						<P>
+							This would be a good place to list past and present projects you are involved in. If you have none, you can hide this tab by editing the <code>#navbar</code> section of the index.html. Below is a sample template for projects:
+						</P>
+						</P>
+						<h4><a href="http://www.youtube.com/watch?v=BKm8FolQ7jw" target="_blank">Laser Based Mosquito Assassination</a></h4>
+						<p>
+							There are probably better ways to control mosquito infestation, but this is by far the most awesome way.
+						</p>
+						<h4><a href="http://www.youtube.com/watch?&v=JrHFxscunOA" target="_blank">Circular Sawblade Slingshot</a></h4>
+						<p>
+							A slingshot that shoots circular sawblades, need I say more?
+						</p>
+					</div>
+					
+					
+					<div class="tab-pane fade" id="tab3">
+						<H2>Publications</H2>
+						<P>
+							This would be a good place to list your publications. If you have none you can hide this tab by editing the <code>#navbar</code> section of the index.html. Below is a sample template for publications:
+						</p>
+						<ul class="unstyled">
+						<li>
+								2011
+								<ul>
+									<li>"<a href="http://chronicle.com/article/How-to-ProcrastinateStill/93959">How to Procrastinate and Still Get Things Done</a>," John Perry, Chronicle of Higher Education, February 23, 1996. Later republished elsewhere under the title "Structured Procrastination." <http://chronicle.com/article/How-to-ProcrastinateStill/93959></li>
+									<li>"<a href="http://www.currentzoology.org/paperdetail.asp?id=11922">No Evidence of Contagious Yawning in the Red-Footed Tortoise</a>" Anna Wilkinson, Natalie Sebanz, Isabella Mandl, Ludwig Huber, Current Zoology, vol. 57, no. 4, 2011. pp. 477-84.</li>
+								</ul>
+							</li>
+							<li>
+								2012
+								<ul>
+									<li>"<a href="http://prl.aps.org/abstract/PRL/v108/i7/e078101">Shape of a Ponytail and the Statistical Physics of Hair Fiber Bundles</a>." Raymond E. Goldstein, Patrick B. Warren, and Robin C. Ball, Physical Review Letters, vol. 198, no. 7, 2012. <br>
+REFERENCE: "<a href="http://epubs.siam.org/doi/abs/10.1137/090760477">Ponytail Motion</a>," Joseph B. Keller, SIAM [Society for Industrial and Applied Mathematics] Journal of Applied Mathematics, vol. 70, no. 7, 2010, pp. 2667-72.</li>
+									<li>"<a href="http://www.wjgnet.com/1007-9327/13/5295.pdf">Colonic Gas Explosion During Therapeutic Colonoscopy with Electrocautery</a>," Spiros D Ladas, George Karamanolis, Emmanuel Ben-Soussan, World Journal of Gastroenterology, vol. 13, no. 40, October 2007, pp. 5295-8.</li>
+								</ul>
+							</li>
+						<ul>
+					</div>
+					
+					
+					<div class="tab-pane fade" id="tab4">
+						<H2>Honors</H2>
+						<P>
+							Why not stroke your academic ego a little and list honors, awards and scholarships you have received?</br>
+							If you happen to be a more modest type, you can hide this tab by editing the <code>#navbar</code> section of the index.html. Below is a sample template for honors:
+						</P>
+						<ul>
+							<li>2012 "<a href="http://gonzolabs.org/dance/" target="_blank">Dance Your Ph.D</a>" Contest winner</li>
+							<li>Member of the worlds largest multiple-player-single-guitar band</li>
+							<li>Generally awesome</li>
+						</ul>
+					</div>
+					
+					<div class="tab-pane fade" id="tab5">
+						<H2>Personal</H2>
+						<P>
+							Tell the world a bit about yourself!</br>
+							What do you do in your spare time? Do you have any hobbies?</br>
+							Alternatively if you are a non-sociable academic recluse, you can hide this tab by editing the <code>#navbar</code> section of the index.html.
+						</P>
+					</div>
+					<div class="tab-pane fade" id="tab6">
+						<H2>Tab 6</H2>
+						<P>
+							An extra tab you can use for whatever purpose you see fit. Rename/Hide this tab  by editing the <code>#navbar</code> section of the index.html.
+						</P>
+					</div>
+					<div class="tab-pane fade" id="tab7">
+						<H2>Tab 7</H2>
+						<P>
+							An extra tab you can use for whatever purpose you see fit. Rename/Hide this tab  by editing the <code>#navbar</code> section of the index.html.
+						</P>
+					</div>
+					<div class="tab-pane fade" id="tab8">
+						<H2>Tab 8</H2>
+						<P>
+							An extra tab you can use for whatever purpose you see fit. Rename/Hide this tab  by editing the <code>#navbar</code> section of the index.html.
+						</P>
+					</div>
+				</div><!-- tab content-->
+			</div> <!-- /main span -->
+		</div> <!-- /container -->
+		<div id="push"></div>
+	</div> <!-- /wrap -->
+	
+    <div id="footer">
+		<div class="container" style="color: #777;">
+			<p>Bootstrapped personal page theme by <a href="http://www.cs.bgu.ac.il/~boazar" rel="author">Boaz Arad</a>, get yours <a href="http://www.cs.bgu.ac.il/~boazar/#tips">here</p>
+      </div>
+	</div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster ->
+    
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <script src="./js/bootstrap-modal.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <script src="./js/bootstrap-popover.js"></script>
+    <script src="./js/bootstrap-button.js"></script>
+    <script src="./js/bootstrap-collapse.js"></script>
+    <script src="./js/bootstrap-carousel.js"></script>
+    <script src="./js/bootstrap-typeahead.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script>
+		$('#myTab a').click(function (e) {
+			e.preventDefault();
+			$(this).tab('show');
+		})
+		if(window.location.hash) {
+			$('#myTab a[href="'+window.location.hash+'"]').tab('show');
+		}
+	</script>
+
+  </body>
+</html>
